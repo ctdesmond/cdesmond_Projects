@@ -9,7 +9,7 @@ def main():
 
     main_surface = pygame.display.set_mode([surface_sz, surface_sz])
 
-    ball = pygame.image.load(os.path.join('Pong','ball.png')).convert()
+    ball = pygame.image.load('ball.png').convert()
 
     small_rect = (300, 300, 100, 100)
     rect_color = (0, 128, 255)
